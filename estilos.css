@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-family: "Kaushan Script", cursive;
+}
+.navbar a {
+  color: rgb(158, 196, 209);
+}
+.navbar a:hover {
+  color: pink;
+}
+
+.titulo {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(158, 196, 209);
+  font-family: "Kaushan Script", cursive;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  background-color: rgb(158, 196, 209);
+}
+.jumbotron img {
+  width: 95%;
+}
+
+.productos h2 {
+  text-align: center;
+  color: rgb(158, 196, 209);
+  font-family: "Kaushan Script", cursive;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+.card img {
+  height: 350px;
+}
+.card h5 {
+  color: black;
+  font-family: "Kaushan Script", cursive;
+}
+
+header {
+  background-color: rgb(158, 196, 209);
+}
+header h6 {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+header a {
+  text-align: center;
+  text-decoration: none;
+}/*# sourceMappingURL=estilos.css.map */
