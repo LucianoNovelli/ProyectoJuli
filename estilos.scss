@@ -5,9 +5,23 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
+.envios{
+    font-family: 'Kaushan Script', cursive;
+    background-color:rgb(168, 130, 174);
+    color: pink;
+    height: 25px;
+    text-align: center;
+    margin:1px;
+}
+
 .navbar{
     font-family: 'Kaushan Script', cursive;
+    background-color:rgb(237, 240, 243);
     a{
+        font-size: 20px;
+        text-decoration: none;
         color: rgb(158, 196, 209);
         &:hover{
             color: pink;
@@ -25,9 +39,13 @@ body{
 }
 
 .jumbotron{
-    background-color:rgb(158, 196, 209);
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/fotos/flower-g581020547_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     img{
-        width: 95%;
+        width: 60%;
     }
 }
 .productos{
@@ -49,7 +67,12 @@ body{
         color:black;
         font-family: 'Kaushan Script', cursive;
     }
+    p{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 14px;
+    }
     margin-bottom: 10px;
+    
 }
 
 header{
@@ -61,6 +84,9 @@ header{
     a{
         text-align: center;
         text-decoration: none;
-        
+        color: pink;
+        font-size: 15px;
+        margin: 5px;
+        padding: 5px;
     }
 }
