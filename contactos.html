@@ -27,14 +27,42 @@
         </nav>
     </header>
     
-
-
-    <div class="espacio"></div>
-
+    <div class="formulario"> 
+        <div class="container col-12">
+            <form >
+                <h5>Contactos.</h5>
+                <div class="mb-3 mt-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Escribe tu nombre" class="form-control">
+                </div>
+    
+                <div class="mb-3 mt-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Escribe tu Apellido" class="form-control">
+                </div>
+    
+                <div class="mb-3 mt-3">
+                    <label for="correo" class="form-label">Email</label>
+                    <input type="email" id="correo" placeholder="Escribe tu Correo" class="form-control">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="num" class="form-label">Telefono</label>
+                    <input type="number" id="num" placeholder="Escribe tu telefono" class="form-control">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="com" class="form-label">Dejanos tu comentario o consulta.</label>
+                    <textarea name="comentario" id="com" cols="30" rows="10" class="form-control" placeholder="Escribe tu comentario"></textarea>
+                </div>
+    
+                <button type="summit">Enviar</button>
+                <button type="reset">Borrar todo</button>
+            </form>
+        </div>
+    </div>
 
     <footer class="container-fluid" >
         <div class="row">
-            <div class="redes col-xl-6 ">
+            <div class="redes col-xl-4 ">
                 <h6>Redes sociales.</h6>
                 <div class="item-footer">
                     <a href="#">Facebook</a><i class="fa-brands fa-facebook"></i>
@@ -47,7 +75,7 @@
                 </div>
             </div>
 
-            <div class="pagos col-xl-6">
+            <div class="pagos col-xl-4">
                 <h6>Medios de pagos.</h6>
                 <div>
                     <a href="">Tarjeta de credito y debito</a><i class="fa-brands fa-cc-visa"></i>
@@ -59,12 +87,26 @@
                     <a href="">Tranferencia Bancaria</a><i class="fa-solid fa-building-columns"></i>
                 </div>
             </div>
+
+            <div class="redes col-xl-4 ">
+                <h6>Medio de contactos.</h6>
+                <div class="item-footer">
+                    <a href="#">Elrecorrido_delossueños@hotmail.com.</a>
+                </div>
+                <div class="item-footer">
+                    <a href="#">Telefono: 0800-222-3547.</a>
+                </div>
+                <div class="item-footer">
+                    <a href="#">Sucursar: Calle 29 n°1563</a>
+                </div>
+            </div>
             <div class="col-xl-12">
                 <p>Todos los derechos reservados por copyright - Luciano Novelli</p>
             </div>
         </div>
-    
     </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 </body>
