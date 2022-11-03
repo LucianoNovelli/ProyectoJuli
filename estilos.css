@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .envios {
@@ -30,8 +31,10 @@ body {
   font-size: 25px;
   text-align: center;
   color: rgb(158, 196, 209);
+  text-shadow: 1px 2px 2px black;
   font-family: "Kaushan Script", cursive;
-  margin-top: 10px;
+  padding: 10px;
+  margin-top: 90px;
   margin-bottom: 20px;
 }
 
@@ -43,7 +46,7 @@ body {
   background-position: center;
 }
 .jumbotron img {
-  width: 60%;
+  width: 50%;
 }
 
 .productos h2 {
@@ -69,18 +72,39 @@ body {
   font-size: 14px;
 }
 
-header {
-  background-color: rgb(158, 196, 209);
+footer {
+  margin-top: 20px;
+  background-color: rgb(168, 130, 174);
 }
-header h6 {
-  text-align: center;
+footer h6 {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: rgb(158, 196, 209);
   font-family: "Kaushan Script", cursive;
 }
-header a {
-  text-align: center;
+footer a {
+  font-family: "Kaushan Script", cursive;
   text-decoration: none;
   color: pink;
   font-size: 15px;
-  margin: 5px;
-  padding: 5px;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+footer a:hover {
+  color: rgb(158, 196, 209);
+}
+footer i {
+  color: pink;
+}
+footer p {
+  padding-top: 12px;
+  margin-top: 1px;
+  color: pink;
+  text-align: center;
+  font-size: 8px;
+}
+
+.espacio {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=estilos.css.map */
